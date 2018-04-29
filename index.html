@@ -1,26 +1,67 @@
 ---
 layout: default
-title: "Ed."
+title: "Aksara"
 ---
 <div class="introduction">
-  <h1>hi.</h1>
+  <h1>Halo, kami adalah Aksara.</h1>
 
-<p>Ed is a <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> theme designed for textual editors based on <a href="http://go-dh.github.io/mincomp/">minimal computing principles</a>, and focused on legibility, durability, ease and flexibility. Our underlying technology is easy to learn and teach, and can produce beautifully rendered scholarly or reading editions of texts meant to last. To start using Ed, please see <a href="{{ site.baseurl }}/documentation/">our documentation</a> for installation instructions and more. To learn more about the ideas behind Ed and a list of current features see our <a href="{{ site.baseurl }}/about/">about</a> section. To see Ed in action, we've provided some sample minimal editions for you below.</p>
+  <p>
+    <strong>Kami ingin memberikan buku-buku berkualitas secara gratis untuk masyarakat Trenggalek.</strong>
+  </p>
+  <p>
+    ...
+  </p>
+  <p>
+    Membaca adalah petualangan yang menyenangkan. Berbeda dengan menonton yang merupakan kegiatan pasif, membaca adalah kegiatan aktif yang <a href="https://creativemarket.com/blog/why-reading-makes-you-more-creative" target="_blank">banyak memberikan efek positif</a>.
+  </p>
+
+  <p>
+    Namun sayangnya, survei yang diadakan sebuah universitas di Amerika menunjukkan bahwa <a href="http://www.thejakartapost.com/life/2016/08/29/indonesia-ranks-second-last-in-reading-interest-study.html" target="_blank">minat baca Indonesia masih rendah</a>. Tentu saja hal yang sama terjadi di kota kecil Trenggalek. 😔
+  </p>
+
+  <p>
+    Lalu tercetuslah ide oleh kami, anak-anak yang lahir dan besar di Trenggalek. Daripada ikut mengutuki hasil survei, mengapa kami tidak ikut serta berpartisipasi menaikkan minat baca masyarakat? Kami sadar bahwa di Trenggalek akses buku masih sulit. Kadang-kadang buku yang dibutuhkan pun terlampau mahal untuk dibeli.
+  </p>
+
+  <p>
+    Jadi, kami ingin membawakan akses buku bacaan berkualitas ke masyarakat <i>yang tinggal di Trenggalek</i>. Gratis. Tanpa syarat.
+  </p>
+
+  <p>
+    ...
+  </p>
+
+  <h3>Bagaimana caranya?</h3>
+
+  <p>
+    Cukup isi formulir yang ada di bawah. Jika tidak ada halangan, kami akan memilih satu buku tiap bulan untuk kami belikan. Bukunya boleh apapun, asalkan non pelajaran. <a href="/pertanyaan-jawaban">Alasannya ada disini</a>.
+  </p>
+
+  <p>
+    Kamu tidak dibebani biaya apapun selain akses internet. Biaya kirimnya pun kami yang akan tanggung! ✌
+  </p>
+  <br>
+  <center>
+    <a href="" style="border: 1px solid #ddd; padding: 10px; margin: 10px 0px;">Halaman pendaftaran</a>
+  </center>
+  <br>
+  <h5>Catatan: <i>Project</i> ini terus berjalan selama halaman pendaftaran masih bisa diakses, tetapi bisa saja diberhentikan sewaktu-waktu. Semoga saja bisa berlangsung cukup lama. <br> <br> Jika kamu ada pertanyaan, bisa lihat dulu di halaman <a href="/pertanyaan-jawaban">pertanyaan & jawaban</a>. </h5>
+
 </div>
 
 <hr>
 
 <div class="toc">
-  <h2>sample texts</h2>
+  <h2>Kabar terbaru</h2>
   <ul class="texts">
-  {% for item in site.texts %}
-  
+    {% for item in site.texts %}
+
     <li class="text-title">
       <a href="{{ site.baseurl }}{{ item.url }}">
         {{ item.title }}
       </a>
     </li>
-  {% endfor %}
+    {% endfor %}
   </ul>
 </div>
 
